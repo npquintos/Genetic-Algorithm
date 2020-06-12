@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED ON) 
 
-set(GA_INCLUDE_DIR "/opt/osi/apl_cust/scripts/operations_support/py/customizations/genetic/galib247")
+set(GA_INCLUDE_DIR "/path/to/genetic/galib247")
 set(GA "${GA_INCLUDE_DIR}/ga")
 
 file(GLOB ga_sources ${GA}/*.C)
